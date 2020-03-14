@@ -1,0 +1,28 @@
+<Entry_Chart>:
+
+    BoxLayout:
+        orientation: "horizontal"
+        RelativeLayout:
+            Label:
+                text: "Nome"
+                pos_hint: {"center_x":.55,"y":.3}
+            Label:
+                text: "Spesa"
+                pos_hint: {"center_x":.55,"y":.15}
+            Label:
+                text: "Contributo personale"
+                pos_hint: {"center_x":.55,"y":0}
+        RelativeLayout:
+            TextInput:
+                id: "name"
+                pos_hint: {"center_x":.45,"y":.775}
+                size_hint: (.35,.05)
+            TextInput:
+                id: "spesa"
+                pos_hint: {"center_x":.45,"y":.625}
+                size_hint: (.2,.05)
+
+            TextInput:
+                id: "contributo"
+                pos_hint: {"center_x":.45,"y":.475}
+                size_hint: (.2,.05)
